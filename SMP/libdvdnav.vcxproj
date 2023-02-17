@@ -15,7 +15,7 @@
       <DisableSpecificWarnings>4244;4267;4067;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <AdditionalDependencies>libdvdreadd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdvdreadd.lib;libdvdcssd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <PostBuildEvent>
       <Command>mkdir "$(OutDir)"\include
@@ -54,7 +54,7 @@ del /f /q $(OutDir)\licenses\libdvdnav.txt
       <DisableSpecificWarnings>4244;4267;4067;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <AdditionalDependencies>libdvdreadd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdvdreadd.lib;libdvdcssd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <PostBuildEvent>
       <Command>mkdir "$(OutDir)"\include
@@ -94,7 +94,7 @@ del /f /q $(OutDir)\licenses\libdvdnav.txt
     </ClCompile>
     <Link>
       <ModuleDefinitionFile>libdvdnav.def</ModuleDefinitionFile>
-      <AdditionalDependencies>libdvdreadd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdvdreadd.lib;libdvdcssd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>mkdir "$(OutDir)"\include
@@ -134,7 +134,7 @@ del /f /q $(OutDir)\licenses\libdvdnav.txt
     </ClCompile>
     <Link>
       <ModuleDefinitionFile>libdvdnav.def</ModuleDefinitionFile>
-      <AdditionalDependencies>libdvdreadd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdvdreadd.lib;libdvdcssd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>mkdir "$(OutDir)"\include
@@ -173,7 +173,7 @@ del /f /q $(OutDir)\licenses\libdvdnav.txt
       <DisableSpecificWarnings>4244;4267;4067;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <AdditionalDependencies>libdvdread.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdvdread.lib;libdvdcss.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <PostBuildEvent>
       <Command>mkdir "$(OutDir)"\include
@@ -212,7 +212,7 @@ del /f /q $(OutDir)\licenses\libdvdnav.txt
       <DisableSpecificWarnings>4244;4267;4067;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <AdditionalDependencies>libdvdread.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdvdread.lib;libdvdcss.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <PostBuildEvent>
       <Command>mkdir "$(OutDir)"\include
@@ -252,7 +252,7 @@ del /f /q $(OutDir)\licenses\libdvdnav.txt
     </ClCompile>
     <Link>
       <ModuleDefinitionFile>libdvdnav.def</ModuleDefinitionFile>
-      <AdditionalDependencies>libdvdread.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdvdread.lib;libdvdcss.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>mkdir "$(OutDir)"\include
@@ -292,7 +292,7 @@ del /f /q $(OutDir)\licenses\libdvdnav.txt
     </ClCompile>
     <Link>
       <ModuleDefinitionFile>libdvdnav.def</ModuleDefinitionFile>
-      <AdditionalDependencies>libdvdread.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdvdread.lib;libdvdcss.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>mkdir "$(OutDir)"\include
@@ -332,7 +332,7 @@ del /f /q $(OutDir)\licenses\libdvdnav.txt
     </ClCompile>
     <Link>
       <ModuleDefinitionFile>libdvdnav.def</ModuleDefinitionFile>
-      <AdditionalDependencies>libdvdread.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdvdread.lib;libdvdcss.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>mkdir "$(OutDir)"\include
@@ -372,7 +372,7 @@ del /f /q $(OutDir)\licenses\libdvdnav.txt
     </ClCompile>
     <Link>
       <ModuleDefinitionFile>libdvdnav.def</ModuleDefinitionFile>
-      <AdditionalDependencies>libdvdread.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdvdread.lib;libdvdcss.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>mkdir "$(OutDir)"\include
